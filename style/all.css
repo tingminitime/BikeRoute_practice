@@ -52,6 +52,7 @@ table {
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
+  background-color: #333;
 }
 
 a {
@@ -66,10 +67,19 @@ img {
   vertical-align: middle;
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,6 +109,7 @@ img {
 .filter__selectTitle {
   font-size: 24px;
   font-weight: 700;
+  color: #fff;
   letter-spacing: .1em;
   line-height: 1.5;
   padding: 0 10px;
@@ -110,8 +121,8 @@ img {
 }
 
 #mapId {
-  width: 800px;
-  height: 600px;
+  width: 90vw;
+  height: 60vh;
   border-radius: 15px;
 }
 
